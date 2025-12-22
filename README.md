@@ -1,0 +1,11 @@
+# Practical work 2 documentation
+
+This is the repository for the webpage of the Practical work 2
+
+## Actions
+
+(21/12/2025)
+- Added the README file to the repository.
+- Added the Gitignore file and the license to the repository
+- Created the folders and the html files for all the pages (not pushed to the repository)
+
