@@ -13,3 +13,6 @@ This is the repository for the webpage of the Practical work 2
 - Added the styles.css and the different styles on the classes
 - Added the meta charsets and started the index
 
+(23/12/2025)
+-Finished the basic style.css doc (maybe I'll add some changes)
+- Finished the structure of the index (waiting to add personal info)
