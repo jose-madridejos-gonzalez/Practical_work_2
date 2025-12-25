@@ -14,5 +14,8 @@ This is the repository for the webpage of the Practical work 2
 - Added the meta charsets and started the index
 
 (23/12/2025)
--Finished the basic style.css doc (maybe I'll add some changes)
+- Finished the basic style.css doc (maybe I'll add some changes)
 - Finished the structure of the index (waiting to add personal info)
+
+(24/12/2025)
+- Added the structure of the about and contact page
