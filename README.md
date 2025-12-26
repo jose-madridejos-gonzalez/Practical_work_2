@@ -18,4 +18,7 @@ This is the repository for the webpage of the Practical work 2
 - Finished the structure of the index (waiting to add personal info)
 
 (24/12/2025)
-- Added the structure of the about and contact page
+- Added the structure of the about and net
+
+(25/12/25)
+- Started (and finished) the contact page (Such a jolly work for a jolly day)
