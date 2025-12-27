@@ -21,4 +21,7 @@ This is the repository for the webpage of the Practical work 2
 - Added the structure of the about and net
 
 (25/12/25)
-- Started (and finished) the contact page (Such a jolly work for a jolly day)
+- Started (and finished) the contact page
+
+(26/12/25)
+- Created and completed the structure of the degree page (it is finished, now I have to fill in all the data)
