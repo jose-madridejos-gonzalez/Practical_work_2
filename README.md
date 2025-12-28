@@ -1,4 +1,4 @@
-# Practical work 2 documentation
+# Practical work 2 documentation (Link to the web: https://jose-madridejos-gonzalez.github.io/Practical_work_2/)
 
 This is the repository for the webpage of the Practical work 2
 
