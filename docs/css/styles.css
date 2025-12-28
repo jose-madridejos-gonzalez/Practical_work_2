@@ -34,6 +34,7 @@ header {
 nav{
     display: flex;
     gap: 20px;
+    padding: 20px;
 }
 
 nav a {
@@ -75,7 +76,6 @@ nav a.active{
     height: 800px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color:antiquewhite;
 }
@@ -197,4 +197,97 @@ nav a.active{
     background-color: rgb(0, 0, 100);
     transition: all;
     transition-duration: 0.3s;
+}
+
+.degree-content{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+
+}
+
+.degree-section {
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+
+.degree-section h1 {
+    color: #000000;
+    margin: 20px;
+    font-size: 5rem;
+}
+
+.degree-table{
+    padding: 20px;
+    background-color: rgb(255, 160, 126);
+    border-radius: 10px;
+}
+
+.degree-table th, .degree-table td{
+    border: 2px solid;
+    gap: 10px;
+    padding: 5px 10px;
+}
+.FCE-button{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    background-color: darkblue;
+    border-radius: 10px;
+    color: white;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.FCE-button :hover{
+    background-color: rgb(0, 0, 100);
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.FCE-content{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.FCE-section{
+    padding: 20px;
+    background-color: aquamarine;
+}
+.FCE-section h1 {
+    color: #000000;
+    margin: 20px;
+    font-size: 5rem;
+}
+
+.FCE-section h2 {
+    color: #000000;
+    margin: 10px;
+    font-size:  2rem;
+}
+
+.FCE-table{
+    padding: 40px;
+    border-radius: 10px;
+    background-color:rgb(105, 158, 255)
+
+}
+
+.FCE-table th, .FCE-table td{
+    border: 2px solid;
+    gap: 10px;
+    padding: 5px 10px; 
+}
+
+.FCE-title{
+    width: 100%;
+    font-size: 1.5rem;
 }
