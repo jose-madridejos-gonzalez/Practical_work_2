@@ -29,3 +29,6 @@ This is the repository for the webpage of the Practical work 2
 (27/12/25)
 - Done the degree section and created the structure of the FCE section, also done some changes and corrections in other segments (only net is left, but in the other ones tomorrow is the day to fill in the data)
 
+(28/12/25)
+- Finished the content needed for FCE, About, and index
+- Done the Net.html file and the topic.html file

@@ -73,13 +73,71 @@ nav a.active{
 }
 
 .content{
-    height: 800px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color:antiquewhite;
 }
 
+.content h1{
+    font-size: 3.5rem;
+    color: black;
+}
+
+.content h2{
+    font-size: 2rem;
+    color:#333;
+}
+
+.content p{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.gato{
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    object-fit: cover;
+    height:400;
+    width: 400;
+
+}
+
+.pie-de-foto{
+    font-size: 1px;
+    text-align: center;
+    color: grey;
+
+}
+
+.index-buttons{
+    background-color: darkblue;
+    color: white;
+    font-size: 1.5rem;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 50px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    align-items: left;
+    gap: 15px;
+    display:flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.index-buttons:hover{
+    background-color:rgb(0, 0, 100);
+    transition: all;
+    transition-duration: 0.5s;
+}
+ 
 .menu {
     background-color: #1a1a2e;
     color: white;
@@ -125,14 +183,93 @@ nav a.active{
     padding: 20px;
     background-color: antiquewhite;
     border-radius: 8px;
+    overflow: auto;
 }
 
-.about-section h1, .about-section h2 {
+.about-section h1{
     color: #333;
     margin: 20px;
-    
-    
 }
+
+
+.Parte-1 {
+    width: 100%;
+    margin-bottom: 40px;
+    clear: both; 
+}
+
+
+.Parte-1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.Parte-1 .imagen-1 {
+    float: left;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.Parte-1 .imagen-1 img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+
+.Parte-1 .text-content {
+    float: right;
+    width: 65%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.Parte-2 {
+    width: 100%;
+    margin-bottom: 40px;
+    clear: both;
+}
+
+
+.Parte-2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.Parte-2 .imagen-2 {
+    float: right;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Parte-2 .imagen-2 img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+
+.Parte-2 .text-content {
+    float: left;
+    width: 65%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 
 .about-section ul {
     list-style:disc;
@@ -245,17 +382,19 @@ nav a.active{
     cursor: pointer;
 }
 
-.FCE-button :hover{
+.FCE-button:hover{
     background-color: rgb(0, 0, 100);
     transition: all;
     transition-duration: 0.3s;
 }
 
 .FCE-content{
-    height: 800px;
+    height: 1700px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+
     
 }
 .FCE-section{
@@ -290,4 +429,137 @@ nav a.active{
 .FCE-title{
     width: 100%;
     font-size: 1.5rem;
+}
+
+.Block-list{
+    text-align: left;
+    font-size: 1.1rem;
+}
+.Block-list li{
+    margin-bottom: 5px;
+}
+
+.volver{
+    display: block;
+    padding: 10px 20px;
+    background-color: rgb(46, 33, 127);
+    color: white;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.volver:hover{
+    background-color: rgb(37, 27, 86);
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.net-content{
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+}
+
+.net-section {
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.net-section h1 {
+    color: #000000;
+    margin: 20px;
+    font-size: 5rem;
+}
+.net-section h2 {
+    color: #000000;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.net-table{
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.net-table th{
+    border-bottom: 2px solid;
+}
+.net-table td{
+    gap: 10px;
+    padding: 5px 10px; 
+}
+
+.net-table img{
+    height: 100px;
+    width: 100px;
+}
+
+.topic-content{
+    height: 1850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:antiquewhite;
+}
+
+.topic-section {
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.topic-section h1{
+    font-size: 5rem;
+    color: #000000;
+    align-items: center;
+}
+
+.Topic-text {
+    width: 100%;
+    margin-bottom: 100px;
+    clear: both;
+    overflow: hidden; 
+}
+
+
+.Topic-text::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.Topic-text .topic-images {
+    float: left;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.Topic-text .topic-images img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+
+.Topic-text .text-contents {
+    float: right;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
